@@ -8,6 +8,25 @@
 	<link rel="stylesheet" href="css/factorial.css">
 </head>
 <body>
+<script>
+	// var i = 0;
+	// while(i<10){
+	// 	document.write(i + "<br>");
+	// 	i+=1;
+	// }
+	// var i = 0;
+	// do{
+	// 	document.write(i + "<br>");
+	// 	i+=1;
+	// }while(i<10)
 
+	var num = prompt("숫자를 입력하세요.");
+	var nFack=1;
+	while(nFack < num){
+		nFack = nFack * num;
+		num-=1;
+	}
+	document.write(nFack);
+</script>
 </body>
 </html>
